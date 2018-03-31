@@ -8,6 +8,7 @@ namespace foobar
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hello Beau!");
+            Console.WriteLine("Hello Beau!");
         }
     }
 }
