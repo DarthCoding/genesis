@@ -6,9 +6,14 @@ namespace foobar
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello Beau!");
-            Console.WriteLine("Hello Beau!");
+            
+            var env = args.Length > 0 ? args[0] : String.Empty;
+            var runner = args.Length > 1 ? args[1] : String.Empty;
+
+            Console.Writeline(env);
+            Console.Writeline(runner);
+            
+
         }
     }
 }
